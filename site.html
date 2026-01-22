@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=9.0">
+    <title>DesArtCode</title>
+</head>
+<style>
+    body{
+        background-color: black;
+
+    }
+     video.bg-video {
+        border-radius: 10%;
+        position:fixed;
+        width:100%;
+        height:60%;
+        z-index:-2;        /* خلف كل العناصر */
+        object-fit: contain;
+        object-fit: cover; /* يغطي فقط الحاوية */
+    }
+    .content {
+        position:relative;
+        z-index:1;
+        color:white;
+        text-align:center;
+        font-size:36px;
+        margin-top:50px;
+    }
+
+
+
+
+    .box{
+        background-color: rgb(253, 253, 253);
+        width: 1300px;
+        height: 1300px;
+        border:2px solid white;
+        margin:50px auto; 
+        padding:20px; 
+        text-align:center; 
+        border-radius: 10%;
+    }
+    h1{
+        font-size: 80px;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left:60px
+
+        
+
+    }
+ 
+
+    button {
+        size: 0px;
+        color: rgb(255, 255, 255);
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        transition: 0.3s;
+        border:none;        /* إزالة الإطار */
+        outline:none;       /* إزالة إطار التركيز */
+        background: none;
+        cursor: pointer;
+        padding: 0;
+    }
+    button.glow{
+        box-shadow:0 0 50px #00ffcc, 0 0 40px #00ffcc;
+    }
+    .boton3{
+        width: 200;
+        color: rgb(0, 0, 0);
+        border-radius: 10%;
+
+    }
+    button:active {
+    box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+    transform: scale(1.05); /* حركة بسيطة عند الضغط */
+}
+h3{
+    color: #00ffcc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:60px
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+
+}
+.text{
+    color:rgb(0, 0, 0);
+    white-space:nowrap;
+    animation: moveText 4s linear infinite alternate;
+}
+@keyframes moveText {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(50%); } /* يتحرك 50px يمينًا */
+    100% { transform: translateX(0); }   /* يعود لنقطة البداية */
+}
+.str{
+    font-size: 10px;
+    text-align:center; 
+    
+
+
+
+}
+.img0 {
+    text-align:center; 
+}
+.img_dev{
+     margin:40px;   /* مسافة من كل الحواف */
+    display:flex;
+    align-items:center; /* محاذاة عمودية */
+    gap:8px;
+    
+}
+.center {
+     text-align:center; 
+    margin:40px;   /* مسافة من كل الحواف */
+    display:flex;
+    align-items:center; /* محاذاة عمودية */
+    gap:8px;
+
+
+}
+p {
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.center_text {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box_1 {
+    background-color: black;
+    color: azure;
+    border-radius: 10%;
+    font-size: 50px;
+    margin-left:100px;
+    display:flex;
+    text-align:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.boton_box {
+    font-size: 30px;
+    width: 200px;
+}
+.boton_box:active {
+    box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+    transform: scale(2.05); /* حركة بسيطة عند الضغط */
+}
+
+
+
+
+
+</style>
+<body>
+    <video class="bg-video "autoplay muted loop>
+        <source src="13495-248644905.mp4" type="video/mp4">
+    </video>
+  
+        
+         
+        <div class="boton3">
+            <button id="btn">Home</button>
+            <a href="index.html"><button>Stor</button></a>
+        </div>
+        
+        
+
+    <h1>DesArtCode</h1>
+    <h3>Welcome to DesArtCode,
+                the site that combines art
+                design creativity and development</h3>
+    
+
+
+
+    <br>
+    <br>
+   
+    
+    <br>
+    <div class="box">
+        <div class="img0">
+            <img src="1254.png", style="width:600px; vertical-align:middle; margin-right:10px;"></img>
+        </div>
+        <div class="str">        
+            <h2>Your destination for quick and easy website design! ,Browse our library of ready-made templates and modern designs</h2>
+            <h2>and choose the one that best suits your project.</h2>
+            <h2>You can easily edit templates and preview changes instantly,</h2>
+            <h2> giving your website a professional and attractive look.</h2>
+            <h2>Get started now and make designing your website simple and fast!</h2>
+        </div>
+        <br>
+        <br>
+        <div class="img_dev">
+            <img src="cropped_circle_image.png", style="width:200px; vertical-align:middle; margin-right:10px;"><p>development</p></img>
+        </div>
+        <br>
+        <div class="center">
+            <img src="cropped.png", style="width:200px; vertical-align:middle;margin-left:600px;"><p>designart</p></img>
+        </div>
+  
+       
+    </div>
+
+ 
+
+
+        
+
+
+
+
+
+
+
+
+
+
+        
+            
+     <script>
+
+        const btn1 = document.getElementById("home")
+        let activehome = !false;
+        btn1 .onclick = () => {
+            activehome = !activehome;
+
+            if (activehome){
+                window.scrollTo({
+                    top:document.body.scrollHeight,
+                    behavior: "smooth"
+                })
+            }
+        }
+
+        const btn = document.getElementById("btn");
+        let active = false;
+
+        btn.onclick = () => {
+            active = !active;
+
+            if (active){
+                
+                btn.textContent = "start";
+                window.scrollTo({
+                    top:500,
+                    behavior: "smooth"
+                });
+            }else{
+                btn.textContent = "Help";
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            }
+        };     
+    
+    </script>
+    
+</body>
+</html>
