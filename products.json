@@ -3,18 +3,13 @@
     "code": "DAC-001",
     "name": "HTML Template Pro",
     "price": 1500,
-    "image": "a4e28b28dba604b9de02862275ac28c2.png"
+    "image": ""
   },
   {
     "code": "DAC-002",
-    "name": "CSS Template Pro",
-    "price": 1200,
-    "image": "a4e28b28dba604b9de02862275ac28c2.png"
-  },
-  {
-    "code": "DAC-003",
-    "name": "JS Template Pro",
-    "price": 1800,
-    "image": "cropped.png"
+    "name": " متجر ملابس اناقة CSS HTML JS Template Pro",
+    "price": 10000,
+    "image": "123-147.png"
   }
+
 ]
